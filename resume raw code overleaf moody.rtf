@@ -1,0 +1,188 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \\documentclass[]\{resume-openfont\}\
+\
+\\pagestyle\{fancy\}\
+\\resetHeaderAndFooter\
+\
+%--------------------------------------------------------------\
+% Convenience command - make it easy to fill template\
+\
+% Create job position command. Parameters: company, position, location, when\
+\\newcommand\{\\resumeHeading\}[4]\{\\runsubsection\{\\uppercase\{#1\}\}\\descript\{ | #2\}\\hfill\\location\{#3 | #4\}\\fakeNewLine\}\
+\
+% Create education heading. Parameters: Name, degree, location, when\
+\\newcommand\{\\educationHeading\}[4]\{\\runsubsection\{#1\}\\hspace*\{\\fill\}  \\location\{#3 | #4\}\\\\\
+\\descript\{#2\}\\fakeNewLine\}\
+\
+% Create project heading. Parameters: Name, link, Tech stack\
+\\newcommand\{\\projectHeading\}[3]\{\\Project\{#1\}\{#2\}\
+\\descript\{#3\}\\\\\}\
+\
+\\newcommand\{\\projectHeadingWithDate\}[4]\{\\Project\{#1\}\{#2\}\
+\\descript\{#3 | #4\}\\\\\}\
+\
+% Parameters: courses\
+\\newcommand\{\\courseWork\}[1]\{\\textbf\{Coursework:\} #1\}\
+\
+% Parameters: courses\
+\\newcommand\{\\teacherAssistant\}[1]\{\\textbf\{Teacher Assistant (TA):\} #1\}\
+ \
+%--------------------------------------------------------------\
+\\begin\{document\}\
+\
+%--------------------------------------------------------------\
+%     Profile\
+%--------------------------------------------------------------\
+\\newcommand\{\\yourName\}\{Ranjeet Kumar\}\
+% How you want it to show up on the resume\
+\\newcommand\{\\yourWebsite\}\{website.com\}\
+% vs how you want it to show up. If it's the same you can just replace "\\yourWebsiteLink" with "yourWebsite"\
+\\newcommand\{\\yourWebsiteLink\}\{https://website.com\}\
+\\newcommand\{\\yourEmail\}\{ranjeet.bppimt.com\}\
+\\newcommand\{\\yourPhone\}\{+91 7979760429\}\
+\\newcommand\{\\githubUserName\}\{ranjeetgupta71\}\
+\\newcommand\{\\linkedInUserName\}\{ranjeetgupta71\}\
+\\newcommand\{\\leetcodeUserName\}\{ranjeetgupta71\}\
+\
+% An alternate profile section \
+% \\alignProfileTable\
+% \\begin\{tabular*\}\{\\textwidth\}\{l@\{\\extracolsep\{\\fill\}\}r\}\
+%     \\ralewayBold\{\\href\{\\yourWebsiteLink\}\{\\Large \\yourName\}\} & \
+%     Email : \\href\{mailto:\\yourEmail\}\{\\yourEmail\}\
+%     \\\\\
+%     \\href\{https://github.com/\\githubUserName\}\{GitHub://\\githubUserName\} & \
+%     Mobile : \\yourPhone\
+%     \\\\\
+%     \\href\{https://www.linkedin.com/in/\\linkedInUserName\}\{LinkedIn://\\linkedInUserName\} & Website : \\href\{\\yourWebsiteLink\}\{\\yourWebsite\}\
+%     \\\\\
+% \\end\{tabular*\}\
+\
+\\begin\{center\}\
+    \\Huge \\scshape \\latoRegular\{\\yourName\} \\\\ \\vspace\{1pt\}\
+    \\small \\href\{mailto:\\yourEmail\}\{\{\\yourEmail \}\}  $ | $  \\yourPhone $|$ \
+    \\href\{https://www.linkedin.com/in/\\linkedInUserName\}\{\{ \
+ LinkedIn \}\} $ | $\
+    \\href\{https://github.com/\\githubUserName\}\{\{ Github \}\} $ | $ \
+    \\href\{https://leetcode.com/\\leetcodeUserName\}\{\{ LeetCode \}\} $ | $ \
+    \\href\{https://www.geeksforgeeks.org/user/ranjeet3676/\}\{\{ GeeksForGeeks \}\}\
+    % $|$ \\href\{\\yourWebsiteLink\}\{\\underline\{\\yourWebsite\}\}\
+\\end\{center\}\
+\
+%--------------------------------------------------------------\
+%     Education\
+%--------------------------------------------------------------\
+\
+\
+%--------------------------------------------------------------\
+%     Experience\
+%--------------------------------------------------------------\
+\\section\{Work Experience\}\
+\
+\\resumeHeading\{Wipro\}\{Project Engineer Trainee\}\{Remote\}\{Mar 2024 - Aug 2024\}\
+\\begin\{bullets\}\
+    \\item Designed and implemented a movie ticketing application using C\\# and .NET technologies.\
+\\item Integrated essential features such as movie selection, seat reservation and add to cart option to enhance the overall user experience.\
+\\item TechStack : SpringBoot,Hibernate,JSP,MySQL,PostMan,Microservices,SonarQube\
+\
+ \
+\\end\{bullets\}\
+\\sectionsep\
+\
+\\resumeHeading\{PearlThoughts\}\{Programmar Intern\}\{Thoothukudi, TN\}\{Apr 2023 \'96 Aug 2023\}\
+\\begin\{bullets\}\
+    \\item Developed an onboarding ChatBot using Bolt.js and Brevo,which automatically sends welcome emails to new\
+    joiners upon joining the company\'92s Slack channel, triggered by the join event. , triggered by the join event.\
+    \\item Developed the frontend of an OpenAI ChatBot using JavaScript and React.js for Optimus Education. Additionally, created a patient chatbot for a hospital.\'94\
+    \\item Integrated the Chat Bot into the Optimus and Weebly websites using iframes.\
+    \\item TechStack : Reactjs , JavaScript , Boltjs , Git , MongoDB , Nestjs , Ngrok\
+\
+    %  \\item Here is another bullet that I might choose to uncomment for some jobs\
+    \
+\\end\{bullets\}\
+\\sectionsep\
+\
+\
+\
+\
+\
+\
+\
+%--------------------------------------------------------------\
+%     Projects\
+%--------------------------------------------------------------\
+\\section\{Projects\}\
+\
+\\projectHeading\{Optimus ChatBot\}\{https://github.com/Aarif123456/Fb-Twitter-gui\}\{React js,Tailwind CSS,Boostrap\}\
+Developed a responsive chatbot interface for an educational platform using React.js, JavaScript, Bootstrap, and Tailwind CSS. The chatbot features a welcome message and educational course categories, with real-time data fetching and a loading animation to enhance user interaction.\\\\\
+\\sectionsep\
+\
+\\projectHeading\{FOODFIESTA\}\{https://github.com/Aarif123456/Fb-Twitter-gui\}\{SpringBoot, MYSQL, Hibernate, Thymeleaf, HTML, CSS\}\
+Developed a restaurant management system with features for customer and order management , inventory tracking, and secure user authentication , integrated with MySQL databases.\\\\\
+\\sectionsep\
+  \
+\\projectHeading\{NEWSPEDIA\}\{https://github.com/ranjeetgupta71/NewsPedia\}\{React js, HTML, CSS, Boostrap\}\
+Built a DailyNews web app using React.js and Bootstrap, featuring interactive cards for news display. Implemented detailed views on card click, added infinite scroll, and organized news by categories. Utilized JavaScript and Git for development.\\\\\
+\\sectionsep\
+\
+\\projectHeading\{CHATLY\}\{https://github.com/ranjeetgupta71/SocketProgramming\}\{Java, Socket Programming\}\
+Developed Java socket chat app with file sharing and stop-and-wait ARQ. Optimized performance with thread-optimized and sliding window protocol.\
+\\sectionsep\
+\
+\
+\
+% Example using bullets and dates \
+% \\projectHeadingWithDate\{Hogwart\\textquotesingle\{\}s Library Management System\}\{https://github.com/Aarif123456/hogwartslibrary\}\{PHP, JavaScript, HTML, CSS, MySQL\}\{Aug 2019\}\
+% \\begin\{bullets\}\
+    % \\item A full-stack library management system, where users can manage books and holds on their accounts. Users can search the library\\textquotesingle\{\}s catalogue, which has every book mentioned in the Harry Potter series. The system distinguishes between 4 users. For examples, librarians who can also check or return books on behalf of users.\\\\\
+% \\end\{bullets\}\
+% \\sectionsep\
+\
+  \\section\{Education\}\
+% Put school first and degree second if your school is reputable\
+\\educationHeading\{BTech. Computer Science Engineering\}\{BP Poddar Insitute Of Management And Technology, \{\\small GPA: 8.93/10\}\}\{Kolkata, WB\}\{July 2022\}\
+\
+\
+% \\courseWork\{Data Structures and Algorithms; Operating Systems;  Computer Security; Software Testing; Advanced Networking; Big Data Analytics\}\
+\\sectionsep\
+\
+%--------------------------------------------------------------\
+%     Skills\
+%--------------------------------------------------------------\
+\\section\{Skills\}\
+\\begin\{skillList\}\
+    \\singleItem\{Languages:\}\{Java, C, JavaScript, C++, C, SQL\}\
+    \\\\\
+    \\singleItem\{Web Development:\}\{React, JavaScript, HTML/CSS, Ruby On Rails\}\
+    \\\\\
+    \\singleItem\{Technology:\}\{SpringBoot, Git\}\
+\\end\{skillList\}\
+\\sectionsep\
+%--------------------------------------------------------------\
+%     Achievements\
+%--------------------------------------------------------------\
+\
+\\section\{Achievements\}\
+\\begin\{bullets\}\
+\\item \
+Ranked 32/908 in Campus Rank on GeeksForGeeks. [Link]\
+\\item Secured 150/175 in GFG coding contest, Wrote 3 articles on gfg. [Link] \
+\\item Ranked Approx 5000 in GATE Exam\
+\\item Certified in C, Python and Data Structures and Algorithms\
+\\end\{bullets\}\
+\\sectionsep\
+\
+% A more concise alternate \
+% \\begin\{skillList\}\
+%     \\doubleItem\{Languages:\}\{Java, C++, Python, C\\#, PHP, Prolog, Bash, C, Racket\}%\
+%     \{Databases:\}\{SQL, MongoDB, Neo4j, DynamoDB\}\
+%     \\\\\
+%     \\doubleItem\{Web Development:\}\{JavaScript, TypeScript, React, HTML/CSS\}\
+%     \{Technology:\}\{Git, AWS, GCP, Azure, Docker, \\LaTeX\}%\
+% \\end\{skillList\}\
+\\end\{document\}}
